@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+pandas = "*"
+jupyter = "*"
+scipy = "*"
+sympy = "*"
+matplotlib = "*"
+jupyterlab = "*"
+scikit-learn = "*"
+pillow = "*"
+mglearn = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+jup = "jupyter notebook"
+juplab = "jupyter lab"
+hello = "python hello.py"
